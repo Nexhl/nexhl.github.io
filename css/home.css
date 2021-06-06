@@ -1,0 +1,71 @@
+/* sfondo gif fullscreen loading page */
+html {
+    width: 100%;
+    height: 100%;
+    background: url("../img/heartbeat.gif") center center no-repeat;
+    overflow-x: hidden;
+}
+
+#home {
+    display: none;
+    background-color: black;
+}
+
+/* toglie striscia di 1px quando hamburger menu è aperto */
+.offcanvas-end {
+    border-left: 0px;
+}
+
+.navbar {
+    background-color: black;
+    width: 10%;
+    float: right;
+    margin-right: 5%;
+}
+
+/* icona hamburger menu */
+.hamburger {
+    border-color: #A4D3BA!important;
+    border-width: 1px;
+    margin-top: 30px;
+ }
+
+ .hamburger:hover {
+    background-color: rgb(164, 211, 186, 0.3);     
+}
+
+/* media query icona hamburger menu */
+@media screen and (max-width: 180px) {
+    .navbar {
+        margin-right: 5%;
+    }
+  }
+
+/* immagine gatto */
+#gatto {
+    height: 100vh;
+    float: left;
+    position: absolute;
+    margin-top: -7%;
+}
+
+/* logo */
+.center-block {
+    width: 500px;
+    margin-left: 35%;
+    margin-right: 40%;
+    margin-top: 11%;
+}
+
+/* elementi lista hamburger menu */ 
+li {
+    list-style: none; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20pt; 
+    padding-bottom: 15px;
+}
+
+li:hover {
+    color: #A4D3BA;
+    cursor: pointer;
+}
