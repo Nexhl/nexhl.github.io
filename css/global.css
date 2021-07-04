@@ -1,0 +1,93 @@
+body {
+    background-color: black;
+}
+
+.navbar {
+    background-color: black;
+    width: 10%;
+    float: right;
+    margin-right: 5%;
+}
+
+/* icona hamburger menu */
+.hamburger {
+    border-color: #A4D3BA!important;
+    border-width: 1px;
+    margin-top: 30px;
+ }
+
+ .hamburger:hover {
+    background-color: rgb(164, 211, 186, 0.3);     
+}
+
+/* toglie striscia di 1px quando hamburger menu è aperto */
+.offcanvas-end {
+    border-left: 0px;
+}
+
+/* elementi lista hamburger menu */ 
+li {
+    list-style: none;
+}
+
+.nav-link {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20pt; 
+    padding-bottom: 15px;
+}
+
+.nav-link:hover {
+    color: #A4D3BA;
+    cursor: pointer;
+}
+
+/* titolo pagina */
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 50pt;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 13%;
+}
+
+/* logo default desktop */
+.logo-desktop {
+    width: 84%;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 8%;
+    margin-bottom: 3%;
+}
+
+/* logo default mobile */
+.logo-mobile {
+    display: none;
+}
+
+
+/* media query per responsiveness */
+@media screen and (max-width: 500px) {
+    .navbar {
+        margin-right: 15%;
+    }
+
+    h1 {
+        font-size: 35pt;
+        margin-left: 15%;
+    }
+
+    .logo-desktop {
+        display: none;
+    }
+
+    .logo-mobile {
+        display: block;
+        width: 84%;
+        margin-top: 10%;
+        margin-left: 8%;
+        margin-bottom: 10%;
+    }
+}

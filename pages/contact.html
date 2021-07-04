@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 
-    <!-- HOMEPAGE -->
+    <!-- CONTACT -->
 
 <head>
 
@@ -10,22 +10,22 @@
 
     <!-- bootstrap e CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link href="/css/global.css" rel="stylesheet">
-    <link href="/css/home.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="../css/global.css" rel="stylesheet">
+    <link href="../css/contact.css" rel="stylesheet"> 
     
     <!-- font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
 
     <title> Nex Mallory </title>
-    <link rel="icon" href="img/nex-icon.png" type="icon type">
+    <link rel="icon" href="../img/nex-icon.png" type="icon type">
 
 </head>
 
 
 
-<body id="home">
+<body id="contact">
     
     <!-- navbar -->
     <div class="navbar navbar-dark">
@@ -49,24 +49,38 @@
 
       <div class="offcanvas-body">
         <ul> 
-          <li> <a class="nav-link" href="/pages/about.html"> About </a> </li>
-          <li> <a class="nav-link" href="/pages/projects.html"> Projects </a> </li>
-          <li> <a class="nav-link" href="/pages/artwork.html"> Artwork </a> </li>
-          <li> <a class="nav-link" href="/pages/contact.html"> Contact </a> </li>
+            <!-- "?nogif=true" arrivando da altre pagine sito AKA non mostrare gif -->
+            <li> <a class="nav-link" href="../index.html?nogif=true"> Home </a> </li>
+            <li> <a class="nav-link" href="about.html"> About </a> </li>
+            <li> <a class="nav-link" href="projects.html"> Projects </a> </li>
+            <li> <a class="nav-link" href="artwork.html"> Artwork </a> </li>
+            <li> <a class="nav-link" href="contact.html"> Contact </a> </li>
         </ul>
       </div>
 
     </div>
 
-    <!-- gatto -->
-    <img id="gatto" src="img/cat-half.png">
+    <!-- titolo -->
+    <h1> Contact </h1>
 
     <!-- logo -->
-    <img class="center-block" src="img/nex-home.png">
+    <img class="logo-desktop" src="../img/nex-extended-desktop.png"> 
+    <img class="logo-mobile" src="../img/nex-extended-mobile.png">
+
+    <!-- testi -->
+    <div class="contact-text">
+        <p> <a target="_blank" href="https://www.instagram.com/nex.hl"> <i class="fab fa-instagram"></i> nex.hl </a>
+        </p>
+            
+        <p> <a target="_blank" href="mailto:naxellory@gmail.com"> <i class="far fa-envelope"></i> naxellory@gmail.com </a>
+        </p>
+
+        <p> <a target="_blank" href="https://t.me/Nexhl"> <i class="fab fa-telegram-plane"></i> Nex.hl </a>
+        </p>
+    </div>
 
     <!-- JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-    <script src="js/home.js"></script>
 
 </body>
 

@@ -1,0 +1,192 @@
+<!doctype html>
+<html>
+
+    <!-- PROJECTS -->
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- bootstrap e CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="../css/global.css" rel="stylesheet">
+    <link href="../css/projects.css" rel="stylesheet"> 
+
+        <!--- plugin photo gallery https://photoswipe.com/ -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.3/photoswipe.min.css" integrity="sha512-yxWNfGm+7EK+hqP2CMJ13hsUNCQfHmOuCuLmOq2+uv/AVQtFAjlAJO8bHzpYGQnBghULqnPuY8NEr7f5exR3Qw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.3/default-skin/default-skin.min.css" integrity="sha512-Rck8F2HFBjAQpszOB9Qy+NVLeIy4vUOMB7xrp46edxB3KXs2RxXRguHfrJqNK+vJ+CkfvcGqAKMJTyWYBiBsGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+
+    <title> Nex Mallory </title>
+    <link rel="icon" href="../img/nex-icon.png" type="icon type">
+
+</head>
+
+
+
+<body id="contact">
+    
+    <!-- navbar -->
+    <div class="navbar navbar-dark">
+        <div class="container-fluid">
+    
+        <!-- hamburger menu -->
+        <!-- ms-auto https://stackoverflow.com/questions/63948287/bootstrap-5-navbar-align-items-right; differenza ms vs me -->
+        <button class="navbar-toggler collapsed ms-auto hamburger" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>   
+
+        </div>   
+    </div>
+
+    <!-- menu che scorre da destra con hamburger -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+
+      <div class="offcanvas-header">
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+
+      <div class="offcanvas-body">
+        <ul> 
+            <!-- "?nogif=true" arrivando da altre pagine sito AKA non mostrare gif -->
+            <li> <a class="nav-link" href="../index.html?nogif=true"> Home </a> </li>
+            <li> <a class="nav-link" href="about.html"> About </a> </li>
+            <li> <a class="nav-link" href="projects.html"> Projects </a> </li>
+            <li> <a class="nav-link" href="artwork.html"> Artwork </a> </li>
+            <li> <a class="nav-link" href="contact.html"> Contact </a> </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- titolo -->
+    <h1> Projects </h1>
+
+    <!-- logo -->
+    <img class="logo-desktop" src="../img/nex-extended-desktop.png"> 
+    <img class="logo-mobile" src="../img/nex-extended-mobile.png">
+
+    <!-- Galleria di progetti -->
+
+    <div class="container">
+        <div class="projects-gallery">
+            <div class="row">
+                <div class="column">
+                    <a href="https://farm4.staticflickr.com/3894/15008518202_c265dfa55f_h.jpg" data-size="1600x1600" data-med="https://farm4.staticflickr.com/3894/15008518202_b016d7d289_b.jpg" data-med-size="1024x1024" data-author="Folkert Gorter">
+                        <img class="preview-gallery" src="https://farm4.staticflickr.com/3894/15008518202_b016d7d289_m.jpg" alt="" />
+                        <figure>This is dummy caption.</figure>
+                      </a>
+                </div>
+                <div class="column">
+                    <a href="https://farm6.staticflickr.com/5591/15008867125_b61960af01_h.jpg" data-size="1600x1068" data-med="https://farm6.staticflickr.com/5591/15008867125_68a8ed88cc_b.jpg" data-med-size="1024x683" data-author="Samuel Rohl">
+                        <img class="preview-gallery" src="https://farm6.staticflickr.com/5591/15008867125_68a8ed88cc_m.jpg" alt="" />
+                        <figure>This is dummy caption. It has been placed here solely to demonstrate the look and feel of finished, typeset text.</figure>
+                      </a>
+                  
+                </div>
+                <div class="column">
+                    <a href="https://farm4.staticflickr.com/3902/14985871946_24f47d4b53_h.jpg" data-size="1600x1067" data-med="https://farm4.staticflickr.com/3902/14985871946_86abb8c56f_b.jpg" data-med-size="1024x683" data-author="Ales Krivec">
+                        <img class="preview-gallery" src="https://farm4.staticflickr.com/3902/14985871946_86abb8c56f_m.jpg" alt="" />
+                        <figure>This is dummy caption. It is not meant to be read.</figure>
+                      </a>
+                </div> 
+
+                <div class="column">
+                    <a href="https://farm6.staticflickr.com/5584/14985868676_b51baa4071_h.jpg" data-size="1600x1067" data-med="https://farm6.staticflickr.com/5584/14985868676_4b802b932a_b.jpg" data-med-size="1024x683" data-author="Michael Hull">
+                        <img class="preview-gallery" src="https://farm6.staticflickr.com/5584/14985868676_4b802b932a_m.jpg" alt="" />
+                        <figure>Dummy caption. It's Greek to you. Unless, of course, you're Greek, in which case, it really makes no sense.</figure>
+                      </a>            
+                </div>
+                <div class="column">
+                            
+                    <a href="https://farm4.staticflickr.com/3920/15008465772_d50c8f0531_h.jpg" data-size="1600x1067" data-med="https://farm4.staticflickr.com/3920/15008465772_383e697089_b.jpg" data-med-size="1024x683" data-author="Thomas Lefebvre">
+                      <img class="preview-gallery" src="https://farm4.staticflickr.com/3920/15008465772_383e697089_m.jpg" alt="" />
+                      <figure>It's a dummy caption. He who searches for meaning here will be sorely disappointed.</figure>
+                    </a>
+                </div> 
+            </div>
+    </div>
+
+
+
+
+    <!-- Photoswipe core component -->
+
+      
+      <div id="gallery" class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="pswp__bg"></div>
+      
+        <div class="pswp__scroll-wrap">
+      
+          <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+          </div>
+      
+          <div class="pswp__ui pswp__ui--hidden">
+      
+            <div class="pswp__top-bar">
+      
+              <div class="pswp__counter"></div>
+      
+              <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      
+              <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      
+              <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+              <div class="pswp__preloader">
+                <div class="pswp__preloader__icn">
+                  <div class="pswp__preloader__cut">
+                    <div class="pswp__preloader__donut"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+      
+            <!-- <div class="pswp__loading-indicator"><div class="pswp__loading-indicator__line"></div></div> -->
+      
+      
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+            <div class="pswp__caption">
+              <div class="pswp__caption__center">
+              </div>
+            </div>
+          </div>
+      
+        </div>
+      
+      
+      </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+
+        <!-- plugin photo gallery https://photoswipe.com/ -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.3/photoswipe.min.js" integrity="sha512-2R4VJGamBudpzC1NTaSkusXP7QkiUYvEKhpJAxeVCqLDsgW4OqtzorZGpulE3eEA7p++U0ZYmqBwO3m+R2hRjA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.3/photoswipe-ui-default.min.js" integrity="sha512-SxO0cwfxj/QhgX1SgpmUr0U2l5304ezGVhc0AO2YwOQ/C8O67ynyTorMKGjVv1fJnPQgjdxRz6x70MY9r0sKtQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        
+    <script src="../js/projects.js"></script>
+
+</body>
+
+
+</html>

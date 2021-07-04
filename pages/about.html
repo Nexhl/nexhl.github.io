@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+
+    <!-- ABOUT -->
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- bootstrap e CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="../css/global.css" rel="stylesheet">
+    <link href="../css/about.css" rel="stylesheet"> 
+    
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+
+    <title> Nex Mallory </title>
+    <link rel="icon" href="../img/nex-icon.png" type="icon type">
+
+</head>
+
+
+
+<body id="about">
+    
+    <!-- navbar -->
+    <div class="navbar navbar-dark">
+        <div class="container-fluid">
+    
+        <!-- hamburger menu -->
+        <!-- ms-auto https://stackoverflow.com/questions/63948287/bootstrap-5-navbar-align-items-right; differenza ms vs me -->
+        <button class="navbar-toggler collapsed ms-auto hamburger" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>   
+
+        </div>   
+    </div>
+
+    <!-- menu che scorre da destra con hamburger -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+
+      <div class="offcanvas-header">
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+
+      <div class="offcanvas-body">
+        <ul> 
+            <!-- "?nogif=true" arrivando da altre pagine sito AKA non mostrare gif -->
+            <li> <a class="nav-link" href="../index.html?nogif=true"> Home </a> </li>
+            <li> <a class="nav-link" href="about.html"> About </a> </li>
+            <li> <a class="nav-link" href="projects.html"> Projects </a> </li>
+            <li> <a class="nav-link" href="artwork.html"> Artwork </a> </li>
+            <li> <a class="nav-link" href="contact.html"> Contact </a> </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- titolo -->
+    <h1> About </h1>
+
+    <!-- logo -->
+    <img class="logo-desktop" src="../img/nex-extended-desktop.png"> 
+    <img class="logo-mobile" src="../img/nex-extended-mobile.png">
+
+    <!-- testi -->
+    <div class="about-text">
+        <p> I love all things challenging.
+        </p>
+            
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+
+        <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+        </p>
+    </div>
+
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+</body>
+
+
+</html>

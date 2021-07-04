@@ -1,6 +1,16 @@
-// lancia timeout della gif dopo caricamento pagina (differenza window.onload vs document.onload)
-window.onload = function() {
-    setTimeout(removeHeartbeat, 2300)
+// funzione che non mostra gif se "?nogif=true" nell'url AKA arrivando da altre pagine sito 
+window.onload = function() { // window.onload vs document.onload
+    var noGifUrl = new URLSearchParams(window.location.search);
+    var GifParam = noGifUrl.get('nogif');
+
+    if (GifParam=="true"){
+        // non mostra gif immediatamente
+        removeHeartbeat()
+
+    } else {
+        // lancia timeout della gif dopo caricamento pagina
+        setTimeout(removeHeartbeat, 2300)
+    }
 }
 
 // funzione che fa scomparire la gif 

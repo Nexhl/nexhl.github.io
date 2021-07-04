@@ -1,0 +1,36 @@
+/* icona hamburger menu */
+.hamburger {
+    margin-top: 0px;
+}
+
+/* testi */ 
+.contact-text p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 25pt;
+    hyphens: auto;
+    color: white;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+}
+
+/* link contatti */
+a {
+    text-decoration: none;
+    color: white; 
+}
+
+a:hover {    
+    color: #A4D3BA;
+    cursor: pointer;
+}
+
+/* media query per responsiveness */
+@media screen and (max-width: 500px) {
+    .contact-text p {
+        font-size: 18pt;
+        margin-top: 15%;
+    }
+}
