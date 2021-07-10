@@ -184,7 +184,7 @@ try{Typekit.load();}catch(e){}
            if(!item.yt){
             captionEl.children[0].innerHTML = item.title + '<br/><small> ' + item.author + '</small>';
            } else {
-            captionEl.children[0].innerHTML = item.title + '<br/><a href="'+ item.yt+'">'+item.author+'</a>'; 
+            captionEl.children[0].innerHTML = item.title + '<br/><a target="_blank" href="'+ item.yt+'">'+item.author+'</a>'; 
            }
           
            return true;

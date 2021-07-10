@@ -1,0 +1,51 @@
+/* icona hamburger menu */
+.hamburger {
+    margin-top: 0px;
+}
+
+figure {
+    color: white;
+    display: none; /* nasconde le caption da vista mosaico */
+}
+
+.row {
+    display: flex; /* fa basically tutto quanto */
+    flex-wrap: wrap; /* https://css-tricks.com/almanac/properties/f/flex-wrap/ it defines whether the flex items are forced in a single line or can be flowed into multiple lines */
+    padding-top: 0px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 0px;
+    margin-bottom: 30px;
+
+}
+  
+/* colonne da 25% -> 25*4 = 100. Sono 4 colonne una fianco all'altra, il padding è utile per lasciare spazio ai bordi */
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding-top: 0px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 0px;
+}
+  
+.column img {
+    margin-top: 8px;
+    width: 100%;
+}
+  
+/* su schermi piccoli (max 800) mostra due colonne 100/2 = 50% flex */
+@media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+}
+  
+/* su schermi sotto i 600px imposta flex al 100% per singola immagine = niente colonne vicine ma solo una */
+@media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+}

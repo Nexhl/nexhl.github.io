@@ -1,0 +1,215 @@
+<!doctype html>
+<html>
+
+    <!-- ARTWORK -->
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- bootstrap e CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="../css/global.css" rel="stylesheet">
+    <link href="../css/artwork.css" rel="stylesheet"> 
+
+        <!--- plugin photo gallery https://photoswipe.com/ -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.3/photoswipe.min.css" integrity="sha512-yxWNfGm+7EK+hqP2CMJ13hsUNCQfHmOuCuLmOq2+uv/AVQtFAjlAJO8bHzpYGQnBghULqnPuY8NEr7f5exR3Qw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.3/default-skin/default-skin.min.css" integrity="sha512-Rck8F2HFBjAQpszOB9Qy+NVLeIy4vUOMB7xrp46edxB3KXs2RxXRguHfrJqNK+vJ+CkfvcGqAKMJTyWYBiBsGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+
+    <title> Nex Mallory </title>
+    <link rel="icon" href="../img/nex-icon.png" type="icon type">
+
+</head>
+
+
+
+<body id="contact">
+    
+    <!-- navbar -->
+    <div class="navbar navbar-dark">
+        <div class="container-fluid">
+    
+        <!-- hamburger menu -->
+        <!-- ms-auto https://stackoverflow.com/questions/63948287/bootstrap-5-navbar-align-items-right; differenza ms vs me -->
+        <button class="navbar-toggler collapsed ms-auto hamburger" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>   
+
+        </div>   
+    </div>
+
+    <!-- menu che scorre da destra con hamburger -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+
+      <div class="offcanvas-header">
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+
+      <div class="offcanvas-body">
+        <ul> 
+            <!-- "?nogif=true" arrivando da altre pagine sito AKA non mostrare gif -->
+            <li> <a class="nav-link" href="../index.html?nogif=true"> Home </a> </li>
+            <li> <a class="nav-link" href="about.html"> About </a> </li>
+            <li> <a class="nav-link" href="projects.html"> Projects </a> </li>
+            <li> <a class="nav-link" href="artwork.html"> Artwork </a> </li>
+            <li> <a class="nav-link" href="contact.html"> Contact </a> </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- titolo -->
+    <h1> Artwork </h1>
+
+    <!-- logo -->
+    <img class="logo-desktop" src="../img/nex-extended-desktop.png"> 
+    <img class="logo-mobile" src="../img/nex-extended-mobile.png">
+
+    <!-- galleria di progetti -->
+    <div class="container">
+        <div class="projects-gallery">
+            <div class="row">
+                <div class="column">
+                    <a href="../img/artwork/hush.png" data-size="1600x1200" data-med="../img/artwork/hush.png" data-med-size="1600x1200" titolo-progetto="Personal illustration / 2020">
+                        <img class="preview-gallery" src="../img/artwork/hush_preview.png" alt="Hush illustration" />
+                        <figure> Hush </figure>
+                      </a>
+                </div>
+
+                <div class="column">
+                    <a href="../img/artwork/redacted.png" data-size="1600x1200" data-med="../img/artwork/redacted.png" data-med-size="1600x1200" titolo-progetto="Personal illustration / 2020">
+                        <img class="preview-gallery" src="../img/artwork/redacted_preview.png" alt="Redacted illustration" />
+                        <figure> Redacted </figure>
+                      </a>
+                  
+                </div>
+                <div class="column">
+                    <a href="../img/artwork/biagio-billy.png" data-size="1600x1200" data-med="../img/artwork/biagio-billy.png" data-med-size="1600x1200" titolo-progetto="D&D character art / 2020">
+                        <img class="preview-gallery" src="../img/artwork/biagio-billy_preview.png" alt="D&D character art" />
+                        <figure> Biagio the artificer </figure>
+                      </a>
+                </div> 
+
+                <div class="column">
+                    <a href="../img/artwork/tattoo.png" data-size="1600x1200" data-med="../img/artwork/tattoo.png" data-med-size="1600x1200" titolo-progetto="Tattoo design / 2019">
+                        <img class="preview-gallery" src="../img/artwork/tattoo_preview.png" alt="Cat tattoo design" />
+                        <figure> Nihil </figure>
+                      </a>            
+                </div>
+            
+                <div class="column">
+                            
+                    <a href="../img/artwork/scarecrow.png" data-size="1600x1200" data-med="../img/artwork/scarecrow.png" data-med-size="1600x1200" titolo-progetto="Personal illustration / 2017">
+                      <img class="preview-gallery" src="../img/artwork/scarecrow_preview.png" alt="Failure scarecrow illustration" />
+                      <figure> Failure scarecrow </figure>
+                    </a>
+                </div> 
+
+                <div class="column">
+                    <a href="../img/artwork/king.png" data-size="1600x1200" data-med="../img/artwork/king.png" data-med-size="1600x1200" titolo-progetto="Personal illustration / 2019">
+                        <img class="preview-gallery" src="../img/artwork/king_preview.png" alt="Personal illustration" />
+                        <figure> The king's last dance </figure>
+                      </a>            
+                </div>
+
+                <div class="column">
+                    <a href="../img/artwork/wheatfield.png" data-size="1600x1200" data-med="../img/artwork/wheatfield.png" data-med-size="1600x1200" titolo-progetto="Found-footage style art / 2020">
+                        <img class="preview-gallery" src="../img/artwork/wheatfield_preview.png" alt="Found footage art" />
+                        <figure> Wheatfield </figure>
+                      </a>
+                </div>
+
+                <div class="column">
+                    <a href="../img/artwork/halloween.png" data-size="1600x1200" data-med="../img/artwork/halloween.png" data-med-size="1600x1200" titolo-progetto="Halloween-themed illustration / 2020">
+                        <img class="preview-gallery" src="../img/artwork/halloween_preview.png" alt="Halloween cat illustration" />
+                        <figure> Halloween cat </figure>
+                      </a>            
+                </div>
+
+            </div>            
+      </div>
+    </div>
+
+
+
+
+    <!-- Photoswipe core component -->
+
+      
+      <div id="gallery" class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="pswp__bg"></div>
+      
+        <div class="pswp__scroll-wrap">
+      
+          <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+          </div>
+      
+          <div class="pswp__ui pswp__ui--hidden">
+      
+            <div class="pswp__top-bar">
+      
+              <div class="pswp__counter"></div>
+      
+              <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      
+              <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      
+              <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+              <div class="pswp__preloader">
+                <div class="pswp__preloader__icn">
+                  <div class="pswp__preloader__cut">
+                    <div class="pswp__preloader__donut"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+      
+            <!-- <div class="pswp__loading-indicator"><div class="pswp__loading-indicator__line"></div></div> -->
+      
+      
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+            <div class="pswp__caption">
+              <div class="pswp__caption__center">
+              </div>
+            </div>
+          </div>
+      
+        </div>
+      
+      </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+
+        <!-- plugin photo gallery https://photoswipe.com/ -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.3/photoswipe.min.js" integrity="sha512-2R4VJGamBudpzC1NTaSkusXP7QkiUYvEKhpJAxeVCqLDsgW4OqtzorZGpulE3eEA7p++U0ZYmqBwO3m+R2hRjA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.3/photoswipe-ui-default.min.js" integrity="sha512-SxO0cwfxj/QhgX1SgpmUr0U2l5304ezGVhc0AO2YwOQ/C8O67ynyTorMKGjVv1fJnPQgjdxRz6x70MY9r0sKtQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        
+    <script src="../js/artwork.js"></script>
+
+</body>
+
+
+</html>
